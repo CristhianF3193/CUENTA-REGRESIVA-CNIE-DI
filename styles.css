@@ -21,4 +21,17 @@ body {
     font-weight: bold;
   }
   
+  .bottom-image {
+    display: none; /* Ocultar la imagen por defecto en pantallas no pequeñas */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .bottom-image {
+      display: block;
+      margin-top: 20px; /* Ajustar el margen para separar la imagen de la cuenta regresiva */
+      max-width: 100%;
+    }
+  }
+  
+  
   
