@@ -23,13 +23,7 @@ body {
   
   .bottom-image {
     display: block;
-    margin-top: 20px; /* Ajustar el margen para separar la imagen de la cuenta regresiva */
+    margin: 20px auto; /* Centrar la imagen horizontalmente */
     max-width: 100%;
-  }
-  
-  @media only screen and (min-width: 601px) {
-    .bottom-image {
-      display: none; /* Ocultar la imagen en pantallas más grandes */
-    }
   }
   
